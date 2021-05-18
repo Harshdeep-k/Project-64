@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import *as  React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import HomeScreen  from './screens/HomeScreen.js';
 
 export default class App extends React.Component
 {
@@ -8,7 +9,7 @@ export default class App extends React.Component
   {
     return(
       <View style={styles.container}>
-      
+      <HomeScreen/>
       </View>
     );
   }
